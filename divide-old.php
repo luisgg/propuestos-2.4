@@ -12,6 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         # check parameters
+        
         if (isset($_REQUEST['dividendo']) && isset($_REQUEST['divisor'])) {
             $dividendo = $_REQUEST['dividendo'];
             $divisor = $_REQUEST['divisor'];
